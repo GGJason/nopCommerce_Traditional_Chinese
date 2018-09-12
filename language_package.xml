@@ -1,45 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Language Name="Chinese TaiWan">
+<Language Name="Traditional Chinese">
   <!--Created by monettrade.com- www.monettrade.com QQ:137870039-->
   <!-- Modified By GGJason@WeBIM Service ggjason.tw@gmail.com-->
-  <LocaleResource Name="AboutUs">
-    <Value>關於我們</Value>
-  </LocaleResource>
   <LocaleResource Name="Account.AccountActivation">
     <Value>啟動帳戶</Value>
   </LocaleResource>
   <LocaleResource Name="Account.AccountActivation.Activated">
     <Value>您的帳戶已啟動</Value>
   </LocaleResource>
+  <LocaleResource Name="Account.AccountActivation.AlreadyActivated">
+    <Value>您的帳戶已啟動</Value>
+  </LocaleResource>
   <LocaleResource Name="Account.Administration">
     <Value>後臺管理</Value>
   </LocaleResource>
   <LocaleResource Name="Account.AssociatedExternalAuth">
-    <Value>外部認證</Value>
+    <Value>外部驗證</Value>
+  </LocaleResource>
+  <LocaleResource Name="Account.AssociatedExternalAuth.AddMoreRecords">
+    <Value>您可以在下一頁中連結到外部帳號（一次登入）：</Value>
   </LocaleResource>
   <LocaleResource Name="Account.AssociatedExternalAuth.AuthMethodName">
-    <Value>認證方式</Value>
+    <Value>驗證方式</Value>
   </LocaleResource>
   <LocaleResource Name="Account.AssociatedExternalAuth.Email">
-    <Value>電子郵箱</Value>
+    <Value>電子信箱</Value>
   </LocaleResource>
   <LocaleResource Name="Account.AssociatedExternalAuth.ExternalIdentifier">
-    <Value>外部識別字</Value>
+    <Value>外部識別子</Value>
   </LocaleResource>
   <LocaleResource Name="Account.AssociatedExternalAuth.YourAccountWillBeLinkedTo">
-    <Value>帳戶關聯：你新的用戶帳戶將會綁定到</Value>
+    <Value>帳戶關聯：您新的使用者帳戶將會綁定到</Value>
+  </LocaleResource>
+  <LocaleResource Name="Account.AssociatedExternalAuth.Or">
+    <Value>- 或 -</Value>
+  </LocaleResource>
+  <LocaleResource Name="Account.AssociatedExternalAuth.Remove">
+    <Value>移除</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Avatar">
-    <Value>頭像</Value>
+    <Value>大頭貼</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Avatar.MaximumUploadedFileSize">
-    <Value>檔大小不能超過{0} 位元組</Value>
+    <Value>大頭貼檔案大小不能超過{0} 位元組</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Avatar.RemoveAvatar">
-    <Value>刪除頭像</Value>
+    <Value>刪除大頭貼</Value>
   </LocaleResource>
   <LocaleResource Name="Account.Avatar.UploadRules">
-    <Value>檔必須是GIF或JPEG格式並且檔大小不能超過20 KB</Value>
+    <Value>檔案必須是GIF或JPEG格式並且檔大小不能超過20 KB</Value>
   </LocaleResource>
   <LocaleResource Name="Account.BackInStockSubscriptions">
     <Value>到貨訂閱</Value>
@@ -74,6 +83,9 @@
   <LocaleResource Name="Account.ChangePassword.Errors.PasswordIsNotProvided">
     <Value>請輸入密碼</Value>
   </LocaleResource>
+  <LocaleResource Name="Account.ChangePassword.Errors.PasswordMatchesWithPrevious">
+    <Value>您輸入的密碼與原先相同，請輸入新的密碼</Value>
+  </LocaleResource>
   <LocaleResource Name="Account.ChangePassword.Fields.ConfirmNewPassword">
     <Value>確認密碼</Value>
   </LocaleResource>
@@ -84,19 +96,22 @@
     <Value>新密碼</Value>
   </LocaleResource>
   <LocaleResource Name="Account.ChangePassword.Fields.NewPassword.EnteredPasswordsDoNotMatch">
-    <Value>兩次密碼不匹配，請重新輸入</Value>
+    <Value>兩次密碼不相同，請重新輸入</Value>
   </LocaleResource>
   <LocaleResource Name="Account.ChangePassword.Fields.NewPassword.LengthValidation">
-    <Value>密碼長度至少{0} 個字元</Value>
+    <Value>密碼長度至少 {0} 個字元</Value>
   </LocaleResource>
   <LocaleResource Name="Account.ChangePassword.Fields.NewPassword.Required">
     <Value>請輸入新密碼</Value>
   </LocaleResource>
   <LocaleResource Name="Account.ChangePassword.Fields.OldPassword">
-    <Value>當前密碼</Value>
+    <Value>目前的密碼</Value>
   </LocaleResource>
   <LocaleResource Name="Account.ChangePassword.Fields.OldPassword.Required">
-    <Value>請輸入當前密碼</Value>
+    <Value>請輸入目前的密碼</Value>
+  </LocaleResource>
+  <LocaleResource Name="Account.ChangePassword.PasswordIsExpired">
+    <Value>您的密碼已經過期，請輸入新的</Value>
   </LocaleResource>
   <LocaleResource Name="Account.ChangePassword.Success">
     <Value>密碼修改成功</Value>
@@ -109,6 +124,9 @@
   </LocaleResource>
   <LocaleResource Name="Account.CheckUsernameAvailability.CurrentUsername">
     <Value>當前用戶名</Value>
+  </LocaleResource>
+  <LocaleResource Name="Account.CheckUsernameAvailability.EnterUsername">
+    <Value>請輸入使用者名稱</Value>
   </LocaleResource>
   <LocaleResource Name="Account.CheckUsernameAvailability.NotAvailable">
     <Value>該用戶名不可用</Value>
